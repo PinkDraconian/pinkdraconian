@@ -2,40 +2,27 @@
 // Source: http://www.williammalone.com/articles/create-html5-canvas-javascript-drawing-app/
 // Modified by PinkDraconian
 
-canvas = document.getElementById("handwrittenDigitCanvas")
-
-context = canvas.getContext("2d");
-
-let paint;
-canvas.onmousedown = function(e) {
+function onDown(e) {
     const mouseX = e.pageX - this.offsetLeft;
     const mouseY = e.pageY - this.offsetTop;
 
-    paint = true;
+    isPainting = true;
     addClick(mouseX, mouseY);
     redraw();
-};
+}
 
-canvas.onmousemove = function(e) {
-    if(paint){
+function onMove(e) {
+    if(isPainting){
         const mouseX = e.pageX - this.offsetLeft;
         const mouseY = e.pageY - this.offsetTop;
         addClick(mouseX, mouseY, true);
         redraw();
     }
-};
+}
 
-canvas.onmouseup = () => {
-    paint = false;
-};
-
-canvas.onmouseleave = function() {
-    paint = false;
-};
-
-const clickX = [];
-const clickY = [];
-const clickDrag = [];
+function onStop() {
+    isPainting = false;
+}
 
 function addClick(x, y, dragging)
 {
@@ -63,3 +50,21 @@ function redraw() {
         context.stroke();
     }
 }
+
+canvas = document.getElementById("handwrittenDigitCanvas")
+context = canvas.getContext("2d");
+let isPainting;
+const clickX = [];
+const clickY = [];
+const clickDrag = [];
+
+canvas.onmousedown = onDown
+canvas.ontouchstart = onDown
+
+canvas.onmousemove = onMove
+canvas.ontouchmove = onMove
+
+canvas.onmouseup = onStop
+canvas.onmouseleave = onStop
+canvas.ontouchcancel = onStop
+canvas.ontouchend = onStop
