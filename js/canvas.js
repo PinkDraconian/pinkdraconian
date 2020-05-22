@@ -59,12 +59,9 @@ const clickY = [];
 const clickDrag = [];
 
 canvas.onmousedown = onDown
-canvas.ontouchstart = onDown
 
 canvas.onmousemove = onMove
-canvas.ontouchmove = onMove
 
 canvas.onmouseup = onStop
 canvas.onmouseleave = onStop
-canvas.ontouchcancel = onStop
-canvas.ontouchend = onStop
+
