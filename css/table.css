@@ -1,0 +1,44 @@
+body {
+    font-family: 'lato', sans-serif;
+}
+.container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h2 {
+    font-size: 26px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+li {
+    border-radius: 3px;
+    padding: 25px 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+th {
+    background-color: #ff7575;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+tr {
+    background-color: #f6b9b9;
+    box-shadow: 0px 0px 9px 0px rgb(131, 99, 126);
+}
+
+.col-1 {
+    width: 28%;
+}
+.col-2 {
+    width: 2%;
+}
+.col-3 {
+    width: 70%;
+}

@@ -37,6 +37,7 @@ function showdata(toshow) {
         let tr = document.createElement('tr');
 
         let td_link = document.createElement('td');
+        td_link.setAttribute('class', 'col-1')
         let a = document.createElement('a');
         let time = video.substring(video.length - 5).split(':');
         a.setAttribute('href', data[video.substring(0, video.length - 6)]['Link'] + '?t=' + (parseInt(time[0]) * 60 + parseInt(time[1])).toString());
@@ -45,10 +46,12 @@ function showdata(toshow) {
         tr.appendChild(td_link);
 
         let td_timestamp = document.createElement('td');
+        td_timestamp.setAttribute('class', 'col-2')
         td_timestamp.textContent = video.substring(video.length - 5);
         tr.appendChild(td_timestamp);
 
         let td_text = document.createElement('td');
+        td_text.setAttribute('class', 'col-3')
         td_text.textContent = toshow[video];
         tr.appendChild(td_text);
 
@@ -82,7 +85,7 @@ window.onload = function() {
 
 function onclick() {
     let search = document.getElementById('search')
-    if (search.value.length > 3) {
+    if (search.value.length > 2) {
        cleardata();
         showdata(searchword(search.value));
     }
