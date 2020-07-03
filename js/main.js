@@ -14,6 +14,20 @@ data = {
             '09:50 Exploiting generic write on Domain admin by adding ourselves to the domain admins group\n' +
             '10:20 Uploading and running mimikatz in order to dump the administrator hash using lsadump\n' +
             '11:30 Logging in with administrator NTLM hash using evil-winrm'
+    },
+    'CyberSecLabs - Boats': {
+        'Link': ''
+        'Timestamps': '00:00 Introduction\n' +
+                '00:12 Running nmap on the windows box\n' +
+                '00:30 Running gobuster on port 80\n' +
+                '01:00 Doing manual enumeration on port 80 whilst waiting for our automatic recon to finish\n' +
+                '01:45 Looking at the output from gobuster and checking the phpmyadmin file\n' +
+                '02:07 Checking out the open phpmyadmin portal\n' +
+                '02:35 Using phpmyadmin to get a shell on the box through uploading php code with a sql query\n' +
+                '03:40 Checking out hacktricks to look for a good reverse shell in windows, we decide to user certutil\n' +
+                '04:40 Using msfvenom to create a reverse meterpreter binary\n' +
+                '05:35 Uploading our binary with certutil and running it\n' +
+                '06:55 Using metasploit to catch our reverse meterpreter shell with exploit/multi/handler'
     }
 }
 
