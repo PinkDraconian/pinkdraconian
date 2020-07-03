@@ -16,7 +16,7 @@ data = {
             '11:30 Logging in with administrator NTLM hash using evil-winrm'
     },
     'CyberSecLabs - Boats': {
-        'Link': ''
+        'Link': 'https://youtu.be/TwmHAzu0AeY',
         'Timestamps': '00:00 Introduction\n' +
                 '00:12 Running nmap on the windows box\n' +
                 '00:30 Running gobuster on port 80\n' +
