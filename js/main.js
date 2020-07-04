@@ -55,7 +55,7 @@ data = {
 10:00 Running sudo -l to get access to dwight\
 11:09 Running linpeas to enumerate the box\
 12:35 Finding a filtered port that is locally open, using ssh to port forward this port\
-14:40 We exploit webmin on port 10000 with metasploit exploit/linux/http/webmin_backdoor"
+14:40 We exploit webmin on port 10000 with metasploit exploit/linux/http/webmin_backdoor'
 },
     'CyberSecLabs - Shares': {
         'Link': 'https://youtu.be/XYu6okeIaog',
