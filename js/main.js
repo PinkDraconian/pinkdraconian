@@ -11,61 +11,61 @@ data = {
     },
     'CyberSecLabs - Debug': {
         'Link': 'https://youtu.be/J8v2QQ9ILto',
-        'Timestamps': '00:00 Introduction\
-00:10 Nmap scan\
-00:20 Gobuster on webroot\
-00:40 Manually checking webpage\
-01:18 Gobuster find console page\
-01:30 We find a flask interactive console and use it to get a reverse shell\
-01:55 Our flask shell isn\'t working reliably, seems like sometimes we get a 404\
-02:13 Checking out Pentestmonkeys\
-02:30 Using rlwrap to make our live easier once the shell returns\
-03:22 Running linpeas to enumerate\
-05:00 Checking gtfobins for a suid binary we can run as root\
-05:55 Reading /etc/shadow and cracking the hashes with john\
+        'Timestamps': '00:00 Introduction\n\
+00:10 Nmap scan\n\
+00:20 Gobuster on webroot\n\
+00:40 Manually checking webpag\ne\
+01:18 Gobuster find console page\n\
+01:30 We find a flask interactive console and use it to get a reverse shell\n\
+01:55 Our flask shell isn\'t working reliably, seems like sometimes we get a 404\n\
+02:13 Checking out Pentestmonkeys\n\
+02:30 Using rlwrap to make our live easier once the shell returns\n\
+03:22 Running linpeas to enumerate\n\
+05:00 Checking gtfobins for a suid binary we can run as root\n\
+05:55 Reading /etc/shadow and cracking the hashes with john\n\
 06:47 Hash cracked, can we su as root with this password?'
     },
     'CyberSecLabs - Cold': {
         'Link': 'https://youtu.be/D0lI12DUg7Y',
-        'Timestamps': '00:00 Introduction\
-00:10 Nmap scan\
-00:33 Checking out port 80, finding phpinfo open\
-01:10 Finding something around coldfusion and deciding to check that out\
-01:30 Checking out blogpost about pentesting coldfusion, mentioning a directory\
-02:00 Looking for a coldfusion file somewhere, eventually finding the admin login\
-03:45 Looking for exploits for coldfusion\
-04:05 Using metasploit to exploit a vulnerability in coldfusion\
-05:16 Upgrading shell to meterpreter with msfvenom and exploit/multi/handler\
-11:00 Running winPEAS on the box\
-12:40 Finding that we can modify a service\'s binpath to get a shell as system\
+        'Timestamps': '00:00 Introduction\n\
+00:10 Nmap scan\n\
+00:33 Checking out port 80, finding phpinfo open\n\
+01:10 Finding something around coldfusion and deciding to check that out\n\
+01:30 Checking out blogpost about pentesting coldfusion, mentioning a directory\n\
+02:00 Looking for a coldfusion file somewhere, eventually finding the admin login\n\
+03:45 Looking for exploits for coldfusion\n\
+04:05 Using metasploit to exploit a vulnerability in coldfusion\n\
+05:16 Upgrading shell to meterpreter with msfvenom and exploit/multi/handler\n\
+11:00 Running winPEAS on the box\n\
+12:40 Finding that we can modify a service\'s binpath to get a shell as system\n\
 15:25 Our shell is unstable so we create another user, add him to administrators, so we can evil-winrm in as the new user'
     },
     'CyberSecLabs - Office': {
     'Link': 'https://youtu.be/PcV3tOw7f_k',
-    'Timestamps': '00:00 Introduction\
-00:15 Running nmap\
-00:30 Running gobuster dir scans on http and https\
-01:17 Adding a found hostname to /etc/hosts\
-02:45 Checking out a forum page on https and notice a possible LFI page\
-03:40 Using wfuzz to automatically fuzz the LFI\
-06:00 From LFI we get a hash for dwight, that we crack with john\
-06:40 Testing the password on ssh and wordpress, the latter works\
-07:40 Using wordpress to upload a php file that we can use for a python reverse shell from pentestmonkeys\
-09:40 Upgrading shell to tty and showcasing ctf-bash-tools on github\
-10:00 Running sudo -l to get access to dwight\
-11:09 Running linpeas to enumerate the box\
-12:35 Finding a filtered port that is locally open, using ssh to port forward this port\
+    'Timestamps': '00:00 Introduction\n\
+00:15 Running nmap\n\
+00:30 Running gobuster dir scans on http and https\n\
+01:17 Adding a found hostname to /etc/hosts\n\
+02:45 Checking out a forum page on https and notice a possible LFI page\n\
+03:40 Using wfuzz to automatically fuzz the LFI\n\
+06:00 From LFI we get a hash for dwight, that we crack with john\n\
+06:40 Testing the password on ssh and wordpress, the latter works\n\
+07:40 Using wordpress to upload a php file that we can use for a python reverse shell from pentestmonkeys\n\
+09:40 Upgrading shell to tty and showcasing ctf-bash-tools on github\n\
+10:00 Running sudo -l to get access to dwight\n\
+11:09 Running linpeas to enumerate the box\n\
+12:35 Finding a filtered port that is locally open, using ssh to port forward this port\n\
 14:40 We exploit webmin on port 10000 with metasploit exploit/linux/http/webmin_backdoor'
 },
     'CyberSecLabs - Shares': {
         'Link': 'https://youtu.be/XYu6okeIaog',
-        'Timestamps': "00:00 Introduction\
-00:15 Running nmap\
-00:50 Enumeration nfs\
-01:12 Mounting an nfs share to a local dir\
-01:45 Finding a private ssh key in the share, we use that to log in using ssh\
-03:18 Cracking the private key using john and ssh2john to get the password\
-04:32 Running sudo -l to see that we can use python and gtfobins to get a shell as amy\
+        'Timestamps': "00:00 Introduction\n\
+00:15 Running nmap\n\
+00:50 Enumeration nfs\n\
+01:12 Mounting an nfs share to a local dir\n\
+01:45 Finding a private ssh key in the share, we use that to log in using ssh\n\
+03:18 Cracking the private key using john and ssh2john to get the password\n\
+04:32 Running sudo -l to see that we can use python and gtfobins to get a shell as amy\n\
 06:20 Running sudo -l to see that we can execute ssh as root and using gtfobins to find a way to exploit that"
     },
     'CyberSecLabs - Roast': {
