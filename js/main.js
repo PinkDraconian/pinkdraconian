@@ -1,12 +1,12 @@
 data = {
     'CyberSecLabs - CMS': {
       'Link': 'https://youtu.be/nnlfJbFKt2Y',
-        'Timestamps': '00:00 Introduction\
-00:15 Running nmap\
-00:33 Checking out the webpage at port 80 and seeing that it\'s running wordpress\
-00:55 Running wpscan to see if there\'s any vulnerable wordpress plugins, We use searchsploit and find an exploit that we decide to run\
-02:30 We now have local file inclusion on the box and check out the methodology in HackTricks, which shows us how we can use /proc/self/status to get the current user and then including /home/angel/.ssh/id_rsa to get the private key\
-04:54 Giving the private key proper permissions in order to be able to use it to log in using ssh\
+        'Timestamps': '00:00 Introduction\n\
+00:15 Running nmap\n\
+00:33 Checking out the webpage at port 80 and seeing that it\'s running wordpress\n\
+00:55 Running wpscan to see if there\'s any vulnerable wordpress plugins, We use searchsploit and find an exploit that we decide to run\n\
+02:30 We now have local file inclusion on the box and check out the methodology in HackTricks, which shows us how we can use /proc/self/status to get the current user and then including /home/angel/.ssh/id_rsa to get the private key\n\
+04:54 Giving the private key proper permissions in order to be able to use it to log in using ssh\n\
 05:30 Running sudo -l to see that we can run any command as sudo and using that to get a root shell'
     },
     'CyberSecLabs - Debug': {
