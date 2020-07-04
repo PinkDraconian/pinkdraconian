@@ -28,6 +28,24 @@ data = {
                 '04:40 Using msfvenom to create a reverse meterpreter binary\n' +
                 '05:35 Uploading our binary with certutil and running it\n' +
                 '06:55 Using metasploit to catch our reverse meterpreter shell with exploit/multi/handler'
+    },
+    'CyberSecLabs - Outdated': {
+        'Link': 'https://youtu.be/hjs-2X3CjAU',
+        'Timestamps': '00:00 Introduction\n' +
+               '00:15 Nmap scan\n' +
+               '00:39 Checking nfs shares with showmount\n' +
+               '01:00 Mounting the remote nfs share\n' +
+               '01:57 Searching for ProFTP exploits\n' +
+               '02:18 Explaining why the metasploit exploit won\'t work in this case\n' +
+               '03:00 Checking out some exploit code for ProFTP to see if we can make it work for out specific case\n' +
+               '03:40 Exploiting mod_copy for ProFTP\n' +
+               '05:35 Reading daniels home folder, getting the private key\n' +
+               '06:10 SSHing with private key (with correct permissions)\n' +
+               '07:00 Uploading files with scp\n' +
+               '07:40 Running linpeas.sh\n' +
+               '07:50 Seeing a possible kernel exploit so we check https://github.com/lucyoa/kernel-exploits\n' +
+               '08:20 Reading up on the overlayfs kernel exploit\n' +
+               '09:35 Running the overlayfs exploit binary and getting root'
     }
 }
 
