@@ -1,4 +1,23 @@
 data = {
+    'CyberSecLabs - Secret': {
+        'Link': 'https://youtu.be/i4bc0N0dMx4',
+        'Timestamps': '00:00 Introduction\n\
+00:10 Nmap scan\n\
+00:20 Checking anonymous / guest login on smb using smbclient.py\n\
+01:12 Mounting smb share locally using mount\n\
+02:45 Reading default password\n\
+03:00 Formatting usernames using ctf-wordlist-names in active directory style\n\
+04:20 Bruteforcing usernames for our found password with crackmapexec\n\
+05:08 Finding valid credentials and logging in using evil-winrm\n\
+06:15 Uploading file in evil-winrm\n\
+06:25 Explaining what SharpHound is and how Bloodhound works (with neo4j)\n\
+08:10 We can\'t find anything of interest in bloodhound so we run winpeas.exe\n\
+10:00 Finding autologon credentials and trying them on the users we have\n\
+10:45 New credentials found. Checking bloodhound if we can do anything as this user\n\
+11:30 From local administrator to domain admin using genericWrite and net group "domain admins" user /add /domain\n\
+12:15 Using mimikatz and lsadump::lsa /patch to get the hash for administrator\n\
+13:30 Logging in to evil-winrm with an NTLM hash'
+    },
     'CyberSecLabs - Potato': {
         'Link': 'https://youtu.be/xUHFQsncsyc',
         'Timestamps': '00:00 Introduction\n\
