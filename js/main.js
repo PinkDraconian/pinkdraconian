@@ -1,4 +1,17 @@
 data = {
+    'CyberSecLabs - Potato': {
+        'Link': 'https://youtu.be/xUHFQsncsyc',
+        'Timestamps': '00:00 Introduction\n\
+00:08 Nmap scan\n\
+00:15 Looking at port 8080, running Jenkins\n\
+00:27 Admin admin credentials work on the Jenkins website\n\
+00:45 Checking hacktricks for Jenkins code exec\n\
+01:05 Getting code exec in jenkins through the groovy script console\n\
+01:45 Running a powershell reverse shell using iwr\n\
+02:41 Using a nishang oneliner shell: https://github.com/samratashok/nishang/blob/master/Shells/Invoke-PowerShellTcpOneLine.ps1\n\
+04:40 Upgrading shell to meterpreter\n\
+05:56 SeImpersonatePrivilege escalation through JuicyPotato'
+    },
     'CyberSecLabs - CMS': {
       'Link': 'https://youtu.be/nnlfJbFKt2Y',
         'Timestamps': '00:00 Introduction\n\
