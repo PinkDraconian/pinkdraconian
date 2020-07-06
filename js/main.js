@@ -1,4 +1,14 @@
 data = {
+    'CyberSecLabs - Unroot': {
+        'Link': 'https://youtu.be/3OU5y-qrWnw',
+        'Timestamps': '00:00 Introduction\n\
+00:10 Nmap scan\n\
+00:40 Gobuster scanning the webroot for files\n\
+01:45 Finding the dev directory\n\
+02:00 Command injection from ping to reverse php shell\n\
+04:55 Running sudo -l, we notice !root and check if our version is vulnerable to CVE-2019-14287\n\
+06:30 Explaining CVE-2019-14287 (sudo -l !root, below 1.8.28)'
+    },
     'CyberSecLabs - Imposter': {
         'Link': 'https://youtu.be/cU6-l6AGF3Q',
         'Timestamps': '00:00 Introduction\n\
