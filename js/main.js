@@ -1,4 +1,23 @@
 data = {
+    'CyberSecLabs - Sam': {
+        'Link': 'https://youtu.be/68762UPEtho',
+        'Timestamps': '00:00 Introduction\n\
+00:10 Nmap scan explanation\n\
+00:40 Checking credential-less smb login\n\
+01:23 Mounting the backups share\n\
+02:30 Enumeration the filesystem we mounted\n\
+03:20 Checking the SAM file on the filesystem\n\
+04:40 Running impacket\'s secretsdump with our SAM and SYSTEM file, giving us hashes\n\
+05:15 Checking evil-winrm access as jamie with hash\n\
+06:15 Checking the services\n\
+07:22 Services cheatsheet\n\
+07:32 Can we modify this service with sc config?\n\
+08:15 Can we modify the binary that the service is executing?\n\
+08:50 Can we modify the binaries with icacls?\n\
+09:40 Can we start and stop the service? Checking service permissions with sc sdshow\n\
+11:15 Creating the exe reverse shell using msfvenom\n\
+12:45 Starting the service and getting a shell back'
+    },
     'CyberSecLabs - Unroot': {
         'Link': 'https://youtu.be/3OU5y-qrWnw',
         'Timestamps': '00:00 Introduction\n\
