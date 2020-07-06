@@ -1,4 +1,23 @@
 data = {
+    'CyberSecLabs - Imposter': {
+        'Link': 'https://youtu.be/cU6-l6AGF3Q',
+        'Timestamps': '00:00 Introduction\n\
+00:10 Nmap scan explaining all ports\n\
+00:20 Explaining RPC\n\
+01:00 Explaining RDP\n\
+01:25 Explain port 5985\n\
+01:35 Port 8080 is interesting\n\
+02:00 We try easy credentials (admin, password, ..) and get credentials\n\
+03:00 Looking at WingFTP\n\
+03:25 We have code execution in the lua console\n\
+03:55 Using regsvr32 to get a shell on the box using metasploit\n\
+06:15 Using burp since we can\'t paste in the console\n\
+07:50 Meterpreter reverse shell returned\n\
+08:05 Enumeration with whoami /priv to see the token privileges\n\
+08:50 Loading incognito in meterpreter\n\
+09:15 Listing token that we can impersonate\n\
+10:00 Impersonating NT AUTHORITY\SYSTEM token with incognito'
+    },
     'CyberSecLabs - Secret': {
         'Link': 'https://youtu.be/i4bc0N0dMx4',
         'Timestamps': '00:00 Introduction\n\
