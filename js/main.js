@@ -1,4 +1,17 @@
 data = {
+    'CyberSecLabs - Engine': {
+        'Link': 'https://youtu.be/wpiA3wMawfw'
+        'Timestamps': '00:00 Introduction\n\
+00:10 NMap scan\n\
+00:40 Gobuster on webroot\n\
+01:15 Gobuster found blog page\n\
+02:30 Logging into admin page with admin:admin\n\
+02:50 Checking blogengine version to look for exploits\n\
+03:30 Testing RCE vulnerability on blogengine\n\
+06:00 Uploading nc so we have a slightly better shell with certutil\n\
+09:30 Uploading and running winpeas\n\
+10:50 Using autologon credentials to login with evil-winrm'
+    },
     'CyberSecLabs - Sam': {
         'Link': 'https://youtu.be/68762UPEtho',
         'Timestamps': '00:00 Introduction\n\
