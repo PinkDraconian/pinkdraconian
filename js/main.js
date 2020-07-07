@@ -1,4 +1,18 @@
 data = {
+    'CyberSecLabs - Leakage': {
+        'Link': 'https://youtu.be/WeHYVYRjeg8',
+        'Timestamps': '00:00 Introduction\n\
+00:10 Nmap scan\n\
+00:23 Checkin out gitlab on port 80, making an account\n\
+00:50 Checking out public projects on gitlab seeing a commit to config.php containing credentials\n\
+01:35 Testing credentials on gitlab\n\
+01:45 Access to a new project containing a private rsa key, which we use to ssh in as jonathan\n\
+02:30 Key has a password so let\'s crack the key with john and ssh2john\n\
+03:20 Uploading linpeas with scp\n\
+04:00 Running linpeas.sh\n\
+05:10 nano has SUID bit set, we can run it as root\n\
+06:00 Uploading public key to /root/.ssh/authorized_keys to ssh as root'
+    },
     'CyberSecLabs - Engine': {
         'Link': 'https://youtu.be/wpiA3wMawfw',
         'Timestamps': '00:00 Introduction\n\
