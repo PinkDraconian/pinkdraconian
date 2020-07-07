@@ -1,6 +1,6 @@
 data = {
     'CyberSecLabs - Engine': {
-        'Link': 'https://youtu.be/wpiA3wMawfw'
+        'Link': 'https://youtu.be/wpiA3wMawfw',
         'Timestamps': '00:00 Introduction\n\
 00:10 NMap scan\n\
 00:40 Gobuster on webroot\n\
