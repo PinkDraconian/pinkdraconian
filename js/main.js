@@ -1,4 +1,18 @@
 data = {
+    'CyberSecLabs - Deployable': {
+        'Link': 'https://youtu.be/3YWOggMiKu4',
+        'Timestamps': '00:00 Introduction\n\
+00:10 Nmap scan\n\
+00:30 Checking out apache tomcat on port 8080\n\
+01:10 Checking login for manager page on tomcat, they use default credentials\n\
+01:45 Manually creating a jsp file to deploy in tomcat, to give us a webshell\n\
+03:45 Code exec, we get a reverse meterpreter shell with regsvr32\n\
+05:50 Uploading and running winpeas with meterpreter\n\
+07:10 We have a service with a path without quotes and spaces, and a directory we can change\n\
+08:50 We can check the configuration of the service\n\
+10:20 Creating our reverse tcp shell with msfvenom\n\
+11:15 Uploading shell to service.exe and starting service'
+    },
     'CyberSecLabs - Leakage': {
         'Link': 'https://youtu.be/WeHYVYRjeg8',
         'Timestamps': '00:00 Introduction\n\
