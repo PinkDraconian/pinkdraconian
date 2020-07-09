@@ -1,4 +1,20 @@
 data = {
+    'CyberSecLabs - Stack': {
+        'Link': 'https://youtu.be/5GB080t8OU8',
+        'Timestamps': '00:00 Introduction\n\
+00:10 Nmap scan\n\
+00:30 Checking out port 80, it runs a debug django instance\n\
+01:05 Logging into gitstack with default credentials\n\
+01:30 Finding an RCE exploit for gitstack and running it\n\
+04:00 Using regsvr32 in metasploit to get a reverse shell\n\
+06:00 Running winpeas on the box\n\
+08:00 We get a keepass password database, which we crack with john\n\
+10:00 Trying to login with evil-winrm, fails\n\
+11:00 Search Invoke-Command on hacktricks but we need a powershell session\n\
+12:20 Getting a powershell shell\n\
+12:30 Running Invoke-Command\n\
+14:10 Using nc.exe to get a reverse shell as administrator'
+    },
     'CyberSecLabs - Deployable': {
         'Link': 'https://youtu.be/3YWOggMiKu4',
         'Timestamps': '00:00 Introduction\n\
