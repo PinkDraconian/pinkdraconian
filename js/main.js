@@ -1,4 +1,13 @@
 data = {
+    'CyberSecLabs - Lazy': {
+        'Link': 'https://youtu.be/SqpWNgsR1TM',
+        'Timestamps': '00:00 Introduction\n\
+00:10 Nmap scan\n\
+00:20 Checking samba version for exploits with searchsploit\n\
+00:40 Reading up on is_known_pipename() exploit\n\
+01:30 Checking if we can use samba without credentials\n\
+02:30 Running the is_known_pipename exploit in metasploit'
+    },
     'CyberSecLabs - Stack': {
         'Link': 'https://youtu.be/5GB080t8OU8',
         'Timestamps': '00:00 Introduction\n\
