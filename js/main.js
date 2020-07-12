@@ -1,4 +1,16 @@
 data = {
+    'CyberSecLabs - Monitor': {
+        'Link': 'https://youtu.be/mq8zNhUH7Jw',
+        'Timestamps': '00:00 Introduction\n\
+00:10 Nmap scan\n\
+00:30 Checking out port 80, where we try default credentials on PRTG network manager\n\
+01:00 Checking smb without credentials using smbclient.py\n\
+01:30 Getting the dev files from the WebBackups share and checking that out\n\
+02:15 Opening the database in sqlite3 and getting credentials that work on PRTG\n\
+03:00 Checking RCE exploits on PRTG using searchsploit\n\
+03:30 Reading the RCE and changing the code because adding a user is too noisy\n\
+05:00 Using rundll32 to get a reverse shell with metasploit as system'
+    },
     'CyberSecLabs - Lazy': {
         'Link': 'https://youtu.be/SqpWNgsR1TM',
         'Timestamps': '00:00 Introduction\n\
