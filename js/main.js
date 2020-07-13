@@ -1,4 +1,17 @@
 data = {
+    'CyberSecLabs - Weak': {
+        'Link': 'https://youtu.be/bVd_Z321Tw0',
+        'Timestamps': '00:00 Introduction\n\
+00:10 Nmap\n\
+00:40 Using files to connect to ftp anonymously\n\
+01:30 Checking if the webroot is actually the ftp share\n\
+02:30 Explain wappalyzer\n\
+03:00 Trying to upload php, it fails\n\
+04:00 Using an aspx web shell (SharPyShell)\n\
+05:40 Enumerating the Development directory, seeing credentials\n\
+06:40 Using crackmapexec to test password on users\n\
+07:20 Good login (PWNED) Using psexec.py to get RCE'
+    },
     'CyberSecLabs - Red': {
         'Link': 'https://youtu.be/XonqZUaqioM',
         'Timestamps': '00:00 Introduction\n\
