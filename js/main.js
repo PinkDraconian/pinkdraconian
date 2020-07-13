@@ -1,4 +1,17 @@
 data = {
+    'CyberSecLabs - Red': {
+        'Link': 'https://youtu.be/XonqZUaqioM',
+        'Timestamps': '00:00 Introduction\n\
+00:10 Nmap scan\n\
+00:30 Checking out redis\n\
+01:00 Checking redis RCE with searchsploit\n\
+01:30 Explaing the redis RCE\n\
+04:40 Executing the RCE\n\
+05:20 Loaded the evil module in redis, getting reverse shell\n\
+09:00 Running pspy to see if root runs any processes\n\
+11:00 Checking the log-manager.sh file, which executes files\n\
+12:00 Creating a shell file to get a reverse shell as root'
+    },
     'CyberSecLabs - Monitor': {
         'Link': 'https://youtu.be/mq8zNhUH7Jw',
         'Timestamps': '00:00 Introduction\n\
