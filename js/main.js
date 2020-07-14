@@ -1,4 +1,16 @@
 data = {
+    'CyberSecLabs - Shock': {
+        'Link': 'https://youtu.be/AWyS60GMZzs',
+        'Timestamps': '00:00 Introduction\n\
+00:10 Nmap scan\n\
+00:40 Running gobuster to search for directories\n\
+01:20 We find cgi-bin folder, scanning that\n\
+02:10 Searching for apache cgi exploits, finding shellshock\n\
+02:50 Exploiting apache shellshock in metasploit\n\
+04:20 Explaining shellshock\n\
+06:40 Uploading and running linpeas using meterpreter\n\
+07:30 Sudo -l shows we can execute socat as root'
+    },
     'CyberSecLabs - Weak': {
         'Link': 'https://youtu.be/bVd_Z321Tw0',
         'Timestamps': '00:00 Introduction\n\
