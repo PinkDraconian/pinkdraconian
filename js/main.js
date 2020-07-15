@@ -1,4 +1,9 @@
 data = {
+    'CyberSecLabs - Eternal': {
+        'Link': 'https://youtu.be/tlB6cyTo8Yw',
+        'Timestamps': '00:00 Introduction\n\
+00:10 EternalBlue'
+    },
     'CyberSecLabs - Shock': {
         'Link': 'https://youtu.be/AWyS60GMZzs',
         'Timestamps': '00:00 Introduction\n\
