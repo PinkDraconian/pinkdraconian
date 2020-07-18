@@ -1,4 +1,18 @@
 data = {
+    'CyberSecLabs - Casino': {
+        'Link': 'https://youtu.be/ZwYqDZOvUpY',
+        'Timestamps': '00:00 Introduction\n\
+00:10 Nmap scan\n\
+00:30 Enumeration of port 80\n\
+01:20 Running Gobuster\n\
+02:20 Trying SSTI Server side template injection\n\
+04:00 Using XSS to grab admin cookie\n\
+06:30 Casino access\n\
+07:00 Exploiting SSRF to get access to an internally open port\n\
+09:00 Using RCE to get a ssh session on the box\n\
+12:40 Finding git repository with credentials\n\
+13:50 Using pythonpath to load and execute vulnerable module running as root'
+    },
     'CyberSecLabs - Eternal': {
         'Link': 'https://youtu.be/tlB6cyTo8Yw',
         'Timestamps': '00:00 Introduction\n\
