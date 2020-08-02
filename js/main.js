@@ -1,4 +1,13 @@
 data = {
+    'CyberSecLabs - Pie': {
+        'Link': 'https://youtu.be/2u0PbBVFIPc',
+        'Timestamps': '00:00 Introduction\n\
+00:10 Checking port 80\n\
+00:20 Explaining pi-hole\n\
+00:50 Pi-Hole admin panel access\n\
+01:05 Searchsploit for pi-hole exploits\n\
+02:00 Checking the pi-hole RCE exploit and running it'
+    },
     'CyberSecLabs - Casino': {
         'Link': 'https://youtu.be/ZwYqDZOvUpY',
         'Timestamps': '00:00 Introduction\n\
