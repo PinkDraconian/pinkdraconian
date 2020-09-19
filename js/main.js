@@ -1,4 +1,28 @@
 data = {
+    'CyberSecLabs - Toast': {
+        'Link': 'https://youtu.be/CndMDvjX8dg',
+        'Timestamps': '00:00 Introduction\n\
+00:15 nmap scan\n\
+00:35 Enumerating SMB with crackmapexec\n\
+01:00 Finding usernames\n\
+02:20 ASREPRoasting users with GetNPUsers and cracking the resulting hash\n\
+05:40 Manually enumerating LDAP in python\n\
+09:00 Checking smb share with new credenials\n\
+10:00 Getting RCE but there is some AV and AMSI\n\
+12:50 Bypassing AMSI by obfscating with ISESteroids\n\
+15:30 Getting first reverse shell, it\'s unstable, we upgrade using nc.exe over a smb share\n\
+17:30 Setting up our SMB server\n\
+18:50 Running WinPEAS on the box\n\
+21:00 Exploiting unquoted service path\n\
+22:30 Turning ps1 script into exe for exploiting unquoted service path\n\
+25:00 Making shell more stable\n\
+27:00 Checking powershell history\n\
+28:00 Spraying new password on smb and winrm with crackmapexec\n\
+29:30 We have debug and impersonate privilege\n\
+30:00 Building sharpsploit and loading the dll into our session with evil-winrm Dll-Loader\n\
+33:00 Dumping SAM with SharpSploit.dll\n\
+34:00 Logging in with the admin hash'
+    },
     'CyberSecLabs - Pie': {
         'Link': 'https://youtu.be/2u0PbBVFIPc',
         'Timestamps': '00:00 Introduction\n\
