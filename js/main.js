@@ -1,4 +1,16 @@
 data = {
+    'CyberSecLabs - Fuel': {
+        'Link': '',
+        'Timestamps': '00:00 Introduction\n\
+00:15 Nmap scan\n\
+00:30 Fuel CMS, version 1.4 - Exploit\n\
+01:20 Looking into the Fuel CMS RCE exploit\n\
+01:40 URL decoding with CyberChef\n\
+02:00 Running the RCE, fixing errors\n\
+03:30 Getting RCE, finding the private RSA key to get SSH access\n\
+05:20 Checking the .bash_history file to find a plaintext password\n\
+06:00 Using the password to su to root'
+    },
     'CyberSecLabs - Toast': {
         'Link': 'https://youtu.be/CndMDvjX8dg',
         'Timestamps': '00:00 Introduction\n\
