@@ -1,4 +1,8 @@
 data = {
+    'CyberSecLabs - Brute': {
+        'Link': 'https://youtu.be/dO3UwMbV6-A',
+        'Timestamps': ''
+    },
     'CyberSecLabs - Fuel': {
         'Link': '',
         'Timestamps': '00:00 Introduction\n\
