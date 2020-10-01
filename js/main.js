@@ -1,7 +1,16 @@
 data = {
     'CyberSecLabs - Brute': {
         'Link': 'https://youtu.be/dO3UwMbV6-A',
-        'Timestamps': ''
+        'Timestamps': '00:00 Introduction\n\
+00:10 Nmap scan\n\
+00:50 HackTricks Active Directory AD methodology\n\
+01:10 Enumerating users with nmap kerberos script, picking usernames list from SecLists\n\
+03:30 ASREPRoasting the usernames we enumerated (with GetNPUsers from impacket)\n\
+05:20 Bruteforcing Tess hash with John\n\
+05:50 WinRM login with evil-winrm\n\
+07:20 DNSAdmins group privesc without crashing the DNS service by creating our own dll and setting it as the serverlevelplug and restarting the server sc\n\
+11:40 Explaining real life scenario without permissions to start dns service\n\
+12:40 We didn\'t crash the dns service. Explaining why that\'s great!'
     },
     'CyberSecLabs - Fuel': {
         'Link': 'https://youtu.be/cAVaHenL7s8',
