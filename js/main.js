@@ -4,7 +4,7 @@ data = {
         'Timestamps': ''
     },
     'CyberSecLabs - Fuel': {
-        'Link': '',
+        'Link': 'https://youtu.be/cAVaHenL7s8',
         'Timestamps': '00:00 Introduction\n\
 00:15 Nmap scan\n\
 00:30 Fuel CMS, version 1.4 - Exploit\n\
