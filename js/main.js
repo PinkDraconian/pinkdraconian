@@ -1,4 +1,13 @@
 data = {
+    'CyberSecurityChallenge Belgium Finals - Tweeted': {
+        'Link': 'https://youtu.be/mCgU9neu5Us',
+        'Timestamps': '00:00 Introduction\n\
+00:25 Adding our first tweet\n\
+01:00 Trying a link as a tweet\n\
+01:45 XSS to run javascript as the user (js)\n\
+02:30 Fetching the tweets page as the user with promises\n\
+04:20 Same-origin policy, find referer in headers'
+    },
     'CyberSecLabs - Brute': {
         'Link': 'https://youtu.be/dO3UwMbV6-A',
         'Timestamps': '00:00 Introduction\n\
