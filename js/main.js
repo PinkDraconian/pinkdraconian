@@ -1,4 +1,31 @@
 data = {
+    'CyberSecLabs - Pipercoin': {
+        'Link': 'https://youtu.be/DetWc55UOZw',
+        'Timestamps': '00:00 Introduction\n\
+00:10 Nmap scan\n\
+00:30 Checking out port 80\n\
+00:40 Directory traversal with wfuzz\n\
+02:05 Finding and checking out source code of the website - Flask\n\
+02:40 Finding potential secret key for signing flask session tokens\n\
+04:40 Using flask unsign to see if the secret key is valid\n\
+08:30 Recovering builtins in python exec\n\
+11:40 Getting past the waf (Chars that aren\'t allowed) by using hex characters\n\
+14:30 Explaining why there\'s a lot of backslashes\n\
+16:50 Getting output from our command through setting a session value\n\
+19:20 System isn\'t returning anything, using popen.read() instead\n\
+19:45 Our payload is too long, shortening it\n\
+23:40 We are root in a docker container (.dockerenv)\n\
+24:10 Finding a sqlite3 db, checking it out\n\
+25:50 Bruteforcing ssh with Hydra\n\
+27:00 Finding SUID binary which we can read, running as root\n\
+28:10 Reverse engineering the cryptoKeys binary with ghidra\n\
+30:00 Checking the security on the binary with checksec\n\
+32:00 Using cyclic strings to get the offset to the instruction pointer\n\
+34:20 Checking if ASLR is enabled on the box\n\
+35:40 Using gdb to get stack address on the box\n\
+37:00 Using pwntools shellcraft to create a nop sled and generate shellcode\n\
+39:30 Running the payload and getting root RCE'
+    },
     'CyberSecurityChallenge Belgium Finals - Tweeted': {
         'Link': 'https://youtu.be/mCgU9neu5Us',
         'Timestamps': '00:00 Introduction\n\
