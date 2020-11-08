@@ -1,4 +1,18 @@
 data = {
+    'CyberSecLabs - Glass': {
+        'Link': 'https://youtu.be/8nnVjdtO5kM',
+        'Timestamps': '00:00 Introduction\n\
+00:10 NMAP scan\n\
+00:50 VNC scanning with NMAP\n\
+01:35 Getting vnc access using bruteforced password using vncviewer\n\
+02:50 Download nc.exe to get a shell instead of the GUI ;)\n\
+03:50 Running winPEAS.exe to enumerate\n\
+05:00 Finding the LM and CU AlwaysInstallElevated registry keys set\n\
+06:30 Using msfvenom to generate msi payload to add admin user on the box\n\
+07:30 using msiexec to use windows installer to run our msi payload\n\
+08:35 That didn\'t work, let\'s add some flags to our command to ensure it runs without user interaction using /quiet and /qn (explaining the flags)\n\
+09:50 Getting cmd as administrator account using the GUI'
+    },
     'CyberSecLabs - Pipercoin': {
         'Link': 'https://youtu.be/DetWc55UOZw',
         'Timestamps': '00:00 Introduction\n\
