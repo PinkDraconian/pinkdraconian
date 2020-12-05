@@ -1,4 +1,21 @@
 data = {
+    'Hack The Box - Pwn - BatComputer': {
+        'Link': 'https://youtu.be/3Snd6A_duSQ',
+        'Timestamps': '00:00 Introduction\n\
+00:40 Analyzing the binary in Ghidra\n\
+03:00 Running checksec to see if the NX security is enabled\n\
+04:20 Finding the buffer overflow\n\
+08:00 Writing code to get the buffer overflow\n\
+16:30 Finding offset to return address using gdb and pwntools\n\
+19:30 Basic payload\n\
+21:00 Explaining the shellcraft shellcode\n\
+24:40 The payload is too long, which messes things up\n\
+25:40 Putting the shellcode in the beginning of the payload\n\
+27:30 Using IDA to see why we fail; we are overwriting our own shellcode\n\
+30:00 Changing endianess when unpacking to fix issue\n\
+32:45 Adding space on stack through popping before shellcode\n\
+34:40 Running exploit on remote'
+    },
     'Hack The Box - Pwn - Jeeves' : {
         'Link': 'https://youtu.be/W5dVsa3__N4',
         'Timestamps': '00:00 Introduction\n\
