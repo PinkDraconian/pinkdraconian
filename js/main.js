@@ -1,4 +1,16 @@
 data = {
+    'Hack The Box - Pwn - Optimistic': {
+        'Link': 'https://youtu.be/MVeRz2ZdSdk',
+        'Timestamps': '00:00 Introduction\n\
+00:20 Checking out the binary\n\
+01:50 Looking at the binary in Ghidra\n\
+02:20 Patching the clock out of the binary in a hex editor (ghex)\n\
+04:20 Checking out how arguments work to function calls in assembly to see what address is being printed\n\
+07:40 Explaining integer under and overflows and applying to the binary\n\
+10:50 Writing a script that for now, just gets a buffer overflow working with pwntools\n\
+15:50 Our ussual shellcode is not allowed, so we need to check out what is and what is not allowed\n\
+19:30 Finding alphanumeric shellcode'
+    },
     'Hack The Box - Pwn - BatComputer': {
         'Link': 'https://youtu.be/3Snd6A_duSQ',
         'Timestamps': '00:00 Introduction\n\
