@@ -1,4 +1,16 @@
 data = {
+    'Hack The Box - Pwn - Reg': {
+        'Link': 'https://youtu.be/72GShSHsRZI',
+        'Timestamps': '00:00 Introduction\n\
+00:30 Running binary\n\
+00:50 Looking at binary in GHidra\n\
+01:00 Finding buffer overflow\n\
+01:40 GDB checksec NX enabled thus ROP?\n\
+02:25 Explaining Return Oriented Programming ROP in paint\n\
+05:00 Finding winner function gadget in ghidra\n\
+06:05 Finding offset to RIP using GDB patterns\n\
+09:00 Writing payload to exploit binary and running it'
+    },
     'Hack The Box - Pwn - Optimistic': {
         'Link': 'https://youtu.be/MVeRz2ZdSdk',
         'Timestamps': '00:00 Introduction\n\
