@@ -1,4 +1,15 @@
 data = {
+    'Hack The Box - Pwn - HTB-Console': {
+        'Link': 'https://youtu.be/BQOInyDjfV0',
+        'Timestamps': '00:00 Introduction\n\
+00:30 Checking out the binary\n\
+01:30 Opening in Ghidra\n\
+02:40 Finding the buffer overflow\n\
+03:30 Getting offset to RIP to know how much padding we need\n\
+05:00 Looking for bad function/instruction we can use in a ROP using objdump\n\
+06:50 We need to pass an argument using RDI, so we need a ROP chain\n\
+11:00 Finding a way to get a string in memory that we have a pointer to'
+    },
     'Hack The Box - Pwn - Reg': {
         'Link': 'https://youtu.be/72GShSHsRZI',
         'Timestamps': '00:00 Introduction\n\
