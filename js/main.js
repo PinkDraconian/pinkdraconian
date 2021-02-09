@@ -1,4 +1,16 @@
 data = {
+    'Hack The Box - Forensics - Chase': {
+        'Link': 'https://youtu.be/0MW39gZQbtE',
+        'Timestamps': '00:00 Introduction\n\
+00:25 Description\n\
+01:05 Checking out files\n\
+01:16 Wireshark: global overview\n\
+03:05 Drawing out flow of attack\n\
+04:30 Wireshark: following streams to dig deeper\n\
+05:30 Checking out the Visual Basic VB webshell\n\
+08:30 Which commands were run in the reverse shell?\n\
+09:30 Getting flag from base32 on odd filename'
+    },
     'Hack The Box X UNI CTF - Exfil': {
         'Link': 'https://youtu.be/GghxAJeuhxE',
         'Timestamps': '00:00 Introduction\n\
