@@ -1,4 +1,13 @@
 data = {
+    'Hack The Box - Forensics - Event Horizon': {
+        'Link': 'https://youtu.be/wl_ML6Uj1Cw',
+        'Timestamps': '00:00 Introduction\n\
+00:45 Checking out evtx or microsoft event viewer logs\n\
+01:45 Opening logs in event viewer\n\
+02:45 Reversing what the attacker did through the error logs\n\
+07:20 Checking the security logs to see how the user impersonated NT AUTHORITY\n\
+08:40 Recap and outro'
+    },
     'Hack The Box - Forensics - Chase': {
         'Link': 'https://youtu.be/0MW39gZQbtE',
         'Timestamps': '00:00 Introduction\n\
