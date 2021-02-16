@@ -16,33 +16,39 @@
 </head>
 <body>
 
-    <div id="cover">
-            <div class="tb">
-                <div class="td"><input id="search" type="text" placeholder="Search" name="q" onClick="this.select();" ondblclick="this.setSelectionRange(0, 0); this.selectionStart = this.selectionEnd = this.value.length;"></div>
-                <div class="td" id="s-cover">
-                    <button id="searchButton">
-                        <div id="s-circle"></div>
-                        <span></span>
-                    </button>
-                </div>
+    <div id="page-container">
+        <div id="content-wrap">
+            <div id="cover">
+                    <div class="tb">
+                        <div class="td"><input id="search" type="text" placeholder="Search" name="q" onClick="this.select();" ondblclick="this.setSelectionRange(0, 0); this.selectionStart = this.selectionEnd = this.value.length;"></div>
+                        <div class="td" id="s-cover">
+                            <button id="searchButton">
+                                <div id="s-circle"></div>
+                                <span></span>
+                            </button>
+                        </div>
+                    </div>
             </div>
+
+            <div class="container">
+            <table id="result">
+                <tr>
+                    <th class="col-1">Video link</th>
+                    <th class="col-2">Timestamp</th>
+                    <th class="col-3">Description</th>
+                </tr>
+            </table>
+            </div>
+        </div>
+        <footer id="footer" style="height:auto;">
+            <p style="text-align: center">Made with 🤍 by PinkDraconian; Inspired by <a href="https://ippsec.rocks">Ippsec</a></p>
+        </footer>
+
+        <!-- Drawing canvas -->
+        <!-- <canvas id="handwrittenDigitCanvas" width="280" height="280"></canvas> -->
+        <canvas class="background"></canvas>
     </div>
 
-    <div class="container">
-    <table id="result">
-        <tr>
-            <th class="col-1">Video link</th>
-            <th class="col-2">Timestamp</th>
-            <th class="col-3">Description</th>
-        </tr>
-    </table>
-    </div>
-
-    <!-- Drawing canvas -->
-    <!-- <canvas id="handwrittenDigitCanvas" width="280" height="280"></canvas> -->
-
-
-    <canvas class="background"></canvas>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
