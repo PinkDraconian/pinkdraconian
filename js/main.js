@@ -1,4 +1,12 @@
 data = {
+    'Hack The Box - Pwn - PwnShop': {
+        'Link': 'https://youtu.be/i_5VQF18suQ',
+        'Timestamps': '00:00 Introduction\n\
+00:40 Running the binary\n\
+09:40 Leaking binary address\n\
+16:30 Overflow and stack pivot\n\
+24:40 Return to LIBC'
+    },
     'Hack The Box - Forensics - Event Horizon': {
         'Link': 'https://youtu.be/wl_ML6Uj1Cw',
         'Timestamps': '00:00 Introduction\n\
