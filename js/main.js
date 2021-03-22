@@ -1,4 +1,23 @@
 data = {
+    'Hack The Box - Pwn - Leet Test': {
+        'Link': 'https://youtu.be/b7urNgLPJiQ',
+        'Timestamps': '00:00 Introduction\n\
+00:50 Running the binary and it\'s security\n\
+01:40 Opening the binary in ghidra\n\
+05:30 Exploiting format strings\n\
+11:30 Starting the script\n\
+17:40 Getting the flag\n\
+27:00 Outro'
+    },
+    'Hack The Box - Forensics - Export': {
+        'Link': 'https://youtu.be/AT6dFhD3zsI',
+        'Timestamps': '00:00 Introduction\n\
+00:40 Explaining RAM, volatile memory\n\
+02:00 Explaining volatility and auto-volatility\n\
+03:00 Running autovolatility\n\
+03:40 Checking command history\n\
+05:30 Checking out the command that places script into the startup folder and getting the flag'
+    },
     'Hack The Box - Pwn - PwnShop': {
         'Link': 'https://youtu.be/i_5VQF18suQ',
         'Timestamps': '00:00 Introduction\n\
