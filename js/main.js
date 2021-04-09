@@ -1,4 +1,13 @@
 data = {
+    'XSS to LFI to RCE - Search for LFI everywhere!': {
+        'Link': 'https://youtu.be/PMYCku8kU3U',
+        'Timestamps': '00:00 Introduction\n\
+01:00 Finding HTML injection\n\
+02:35 Server side XSS\n\
+03:00 Server side XSS to LFI\n\
+04:15 LFI to RCE through ssh key\n\
+05:00 Outro'
+    },
     'Hack The Box - Pwn - Leet Test': {
         'Link': 'https://youtu.be/b7urNgLPJiQ',
         'Timestamps': '00:00 Introduction\n\
