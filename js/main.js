@@ -1,4 +1,14 @@
 data = {
+    '' : {
+        'Link': '',
+        'Timestamps': '00:00 Introduction\n\
+00:25 Jarvis Machine\n\
+00:45 Testing GET parameter for SQLi\n\
+03:00 Explaining and exploiting union based SQLi\n\
+05:20 Using SQLMap to exploit SQLi\n\
+06:50 Explaining and exploiting file write in mysql\n\
+08:30 Outro'
+    },
     'XSS to LFI to RCE - Search for LFI everywhere!': {
         'Link': 'https://youtu.be/PMYCku8kU3U',
         'Timestamps': '00:00 Introduction\n\
