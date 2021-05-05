@@ -1,4 +1,15 @@
 data = {
+    'CyberSecLabs - Unattended' : {
+        'Link': 'https://youtu.be/skbVwxga1OM',
+        'Timestamps': '00:00 Introduction\n\
+00:15 Nmap scan\n\
+00:50 HttpFileServer 2.3\n\
+02:00 Exploiting using metasploit\n\
+03:30 Manually running the HFS exploit\n\
+07:20 Looking through unattend answer files\n\
+09:40 Running evil-winrm\n\
+10:20 Outro'
+    },
     'Union Based SQLi To RCE! - Escalate your SQL injections!' : {
         'Link': 'https://youtu.be/yHpPVEVd2Cw',
         'Timestamps': '00:00 Introduction\n\
