@@ -1,4 +1,19 @@
 data = {
+    'CyberSecLabs - Dictionary': {
+        'Link': 'https://youtu.be/yUtgruE664g',
+        'Timestamps': '00:00 Introduction\n\
+00:10 Nmap scan\n\
+00:40 Enumerate users using TGT kerberos authentication\n\
+02:00 Python TGT kerberos authentication\n\
+04:05 AD Usernames and TGT cracking\n\
+06:20 Tools for user enum\n\
+06:40 Cracking hash with john\n\
+07:30 RPC access\n\
+08:30 Password spraying\n\
+09:30 WinPEAS\n\
+10:30 Firefox credentials\n\
+12:20 Outro'
+    },
     'CyberSecLabs - Unattended' : {
         'Link': 'https://youtu.be/skbVwxga1OM',
         'Timestamps': '00:00 Introduction\n\
