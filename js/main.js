@@ -7,7 +7,7 @@ data = {
 01:10 Explaining drupalgeddon 2\n\
 03:40 Manually exploiting drupalgeddon 2\n\
 06:00 DLL injection'
-    }
+    },
     'CyberSecLabs - Dictionary': {
         'Link': 'https://youtu.be/yUtgruE664g',
         'Timestamps': '00:00 Introduction\n\
