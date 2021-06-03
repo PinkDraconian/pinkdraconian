@@ -1,4 +1,16 @@
 data = {
+    'CyberSecLabs - Simple': {
+        'Link': 'https://youtu.be/eBK3PFBXjfU',
+        'Timestamps': '00:00 Introduction\n\
+00:10 NMAP scan\n\
+00:40 Checking out CMS Made Simple\n\
+01:00 Running searchsploit\n\
+02:10 CMS Made Simple Time based SQLi exploit\n\
+05:00 CMS Made Simple Arbitrary file upload RCE\n\
+07:50 Getting a reverse shell using python3\n\
+09:30 Running Linux Smart Enumeration (lse.sh)\n\
+10:30 Exploiting systemctl with setuid'
+    },
     'CyberSecLabs - Hijack': {
         'Link': 'https://youtu.be/ZfVNIBM1zHY',
         'Timestamps': '00:00 Introduction\n\
