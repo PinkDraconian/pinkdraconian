@@ -1,4 +1,15 @@
 data = {
+    'Hack The Box - Baby RE': {
+        'Link': 'https://youtu.be/iohcHMmdXy0',
+        'Timestamps': '00:00 Introduction\n\
+00:15 Typhooncon CTF\n\
+01:10 Running the binary\n\
+02:40 Strings\n\
+04:00 Ltrace\n\
+06:00 Static analysis\n\
+08:55 Dynamic analysis\n\
+12:50 Outro'
+    },
     'CyberSecLabs - Simple': {
         'Link': 'https://youtu.be/eBK3PFBXjfU',
         'Timestamps': '00:00 Introduction\n\
