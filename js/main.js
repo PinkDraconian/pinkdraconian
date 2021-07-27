@@ -1,4 +1,16 @@
 data = {
+    'CyberSecLabs - Sync': {
+        'Link': 'https://youtu.be/ndBZSWKo54c',
+        'Timestamps': '00:00 Introduction\n\
+00:15 Nmap scan\n\
+01:00 Looking at SMB\n\
+03:00 Looking at SMB Share directory permissions using smbcacls\n\
+08:00 NTLM_Theft and responder\n\
+13:50 BloodHound\n\
+18:30 Exploiting GenericWrite through ASREP roasting\n\
+24:10 DCSync attack\n\
+28:30 Outro'
+    },
     'Hack The Box - Baby RE': {
         'Link': 'https://youtu.be/iohcHMmdXy0',
         'Timestamps': '00:00 Introduction\n\
