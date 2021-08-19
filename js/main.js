@@ -1,4 +1,18 @@
 data = {
+    'Hack The Box - Love': {
+        'Link': 'https://youtu.be/5DGyGSYxMG4',
+        'Timestamps': '00:00 Introduction\n\
+00:15 NMAP\n\
+01:15 Hive platform\n\
+05:20 Voting System using PHP SQLi\n\
+08:50 Hive creating issue\n\
+10:20 SSRF\n\
+13:55 Authenticated RCE voting system\n\
+18:20 Running WinPEAS\n\
+23:00 Exploiting AlwaysInstallElevated\n\
+27:30 Hive platform running through features\n\
+29:30 Checking out the automatic report generation of Hive'
+    },
     'CyberSecLabs - Sync': {
         'Link': 'https://youtu.be/ndBZSWKo54c',
         'Timestamps': '00:00 Introduction\n\
