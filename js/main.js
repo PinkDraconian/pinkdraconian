@@ -1,4 +1,21 @@
 data = {
+    'Typhooncon CTF - Race To Win': {
+        'Link': 'https://youtu.be/csWTuEdL_KM',
+        'Timestamps': '00:00 Introduction\n\
+00:20 SSD Secure Disclosure Sponsor\n\
+00:50 Checking out the index.php page\n\
+03:00 Playing around with the d parameter (DirectoryIterator)\n\
+04:00 Using the glob:// wrapper to enumerate filenames\n\
+06:30 Scripting the file enumeration\n\
+13:40 Checking out the enumerated files\n\
+15:30 Using the php:// wrapped to get the source of backup.config.php\n\
+18:30 Reading files on the filesystem using backupconfig\n\
+19:20 Getting RCE using PHP_SESSION_UPLOAD_PROGRESS\n\
+21:30 Starting PHP session and reading that file\n\
+25:00 Trying to get RCE in the backupconfig file\n\
+31:00 Using the zip://archive#.config.php wrapper\n\
+42:00 Outro'
+    },
     'Hack The Box - Love': {
         'Link': 'https://youtu.be/5DGyGSYxMG4',
         'Timestamps': '00:00 Introduction\n\
