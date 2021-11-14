@@ -1,4 +1,19 @@
 data = {
+    'CyberSecLabs - Spray': {
+        'Link': 'https://youtu.be/pmaeQlFkFV0',
+        'Timestamps': '00:00 Introduction\n\
+00:15 Nmap scan\n\
+02:00 Enumerate domain users through bruteforce\n\
+04:40 Spraying passwords\n\
+06:50 Enumdomusers in RPC\n\
+07:50 SMB Share enumeration\n\
+09:00 Checking out the found document\n\
+11:30 Password spraying the found password\n\
+12:40 Evil-winrm\n\
+13:45 BloodHound\n\
+20:00 SharpGPOAbuse\n\
+24:30 Outro'
+    },
     'Typhooncon CTF - Race To Win': {
         'Link': 'https://youtu.be/csWTuEdL_KM',
         'Timestamps': '00:00 Introduction\n\
