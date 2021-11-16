@@ -1,4 +1,14 @@
 data = {
+    'CyberSecLabs - Zero': {
+        'Link': 'https://youtu.be/AqYLF4JavfE',
+        'Timestamps': '00:00 Introduction\n\
+00:12 Nmap scan\n\
+01:00 Zerologon\n\
+02:30 Exploiting zerologon\n\
+03:00 Secretsdump\n\
+04:30 Explaining zerologon\n\
+08:30 Outro
+    },
     'CyberSecLabs - Spray': {
         'Link': 'https://youtu.be/pmaeQlFkFV0',
         'Timestamps': '00:00 Introduction\n\
